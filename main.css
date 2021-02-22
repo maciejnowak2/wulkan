@@ -1,32 +1,195 @@
-        body {
-            background-image: url(img/felgi.jpg);
-            background-color: grey;
-            background-blend-mode: darken;
-        }
-        
-        .navbar {
-            background-image: linear-gradient(90deg, #3E4551, #212121);
-            box-shadow: 0 1rem 1rem rgba(0, 0, 0, .15);
-            color: white!important;
-            text-align: center;
-        }
-        
-        .nav-link {
-            color: white!important;
-            text-transform: capitalize;
-            font-weight: 500;
-            letter-spacing: .1rem;
-            font-size: 25px;
-            text-shadow: 0 1rem 1rem rgba(0, 0, 0, .15);
-            margin-right: 30px;
-        }
-        
-        .onas {
-            color: white!important;
-            text-justify: auto;
-        }
-        
-        .footer {
-            background-color: black;
-            color: white!important;
-        }
+    body {
+        background-image: url(img/tlo.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .logo {
+        background-image: url(img/opony.jpg);
+        background-color: gray;
+        background-blend-mode: hard-light;
+    }
+    
+    .navbar {
+        background-image: linear-gradient(90deg, #f7bf0a, #b30101);
+        box-shadow: 0 1rem 1rem rgba(0, 0, 0, .15);
+        color: white!important;
+    }
+    
+    .nav-link {
+        color: white!important;
+        text-transform: capitalize;
+        font-weight: 500;
+        letter-spacing: .1rem;
+        font-size: 25px;
+        text-shadow: 0 1rem 1rem rgba(0, 0, 0, .15);
+        margin-left: 25px;
+    }
+    
+    .onas {
+        color: white!important;
+        text-justify: auto;
+    }
+    
+    .footer {
+        color: white!important;
+        background-image: url(img/opony.jpg);
+    }
+    
+    .footer1 {
+        background-image: linear-gradient(90deg, rgb(22, 21, 21), #212121);
+    }
+    
+    .oferta {
+        color: white!important;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: left;
+        display: flex;
+        text-decoration: none;
+    }
+    
+    .oferta2 {
+        color: white!important;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-decoration: none;
+        background-image: linear-gradient(90deg, #f7bf0a, #b30101);
+        box-shadow: 0 1rem 1rem rgba(0, 0, 0, .15);
+    }
+    
+    .oferta h5 {
+        margin-top: 1.5rem;
+    }
+    
+    .oferta h6 {
+        margin-top: 1.5rem;
+        font-size: medium!important;
+        text-overflow: inherit;
+    }
+    
+    .cennik {
+        color: white;
+        text-align: center;
+        font-weight: 900;
+    }
+    
+    .tg {
+        border-collapse: collapse;
+        border-spacing: 0;
+        justify-content: center;
+    }
+    
+    .tg td {
+        border-style: solid;
+        border-width: 0px;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        overflow: hidden;
+        padding: 5px 6px;
+        word-break: normal;
+    }
+    
+    .tg th {
+        border-style: solid;
+        border-width: 0px;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        overflow: hidden;
+        padding: 5px 6px;
+        word-break: normal;
+    }
+    
+    .tg .tg-ja0e {
+        background-color: #fe0000;
+        border-color: #000000;
+        color: #ffffff;
+        font-size: 18px;
+        text-align: center;
+        vertical-align: top
+    }
+    
+    .tg .tg-uw8j {
+        background-color: #fe0000;
+        color: #ffffff;
+        font-size: 18px;
+        text-align: center;
+        vertical-align: top
+    }
+    
+    .tg .tg-t2xe {
+        background-color: #9a0000;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        vertical-align: top
+    }
+    
+    .tg .tg-nogn {
+        background-color: #9a0000;
+        border-color: inherit;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        vertical-align: middle
+    }
+    
+    .tg .tg-q6pw {
+        background-color: #fe0000;
+        border-color: inherit;
+        color: #ffffff;
+        font-size: 18px;
+        text-align: left;
+        vertical-align: middle
+    }
+    
+    .tg .tg-vcl2 {
+        background-color: #fe0000;
+        border-color: inherit;
+        color: #ffffff;
+        font-size: 18px;
+        text-align: center;
+        vertical-align: middle
+    }
+    
+    .tg .tg-ap0p {
+        background-color: #9a0000;
+        border-color: inherit;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        vertical-align: top
+    }
+    
+    .tg .tg-1bje {
+        background-color: #fe0000;
+        border-color: inherit;
+        color: #ffffff;
+        font-size: 18px;
+        text-align: center;
+        vertical-align: top
+    }
+    
+    .tg .tg-q3gx {
+        background-color: #9a0000;
+        border-color: #000000;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        vertical-align: top
+    }
+    
+    .galeria img {
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        padding: 15px;
+        width: 100%;
+        position: relative;
+        margin: 3px;
+    }
