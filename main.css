@@ -7,16 +7,29 @@
     }
     
     .logo {
-        background-image: url(img/bieznik3.jpg);
+        background-image: url(img/oponaheader6.jpg);
         background-attachment: fixed;
         background-size: cover;
+        background-repeat: no-repeat;
         color: white!important;
+    }
+    
+    .inner {
+        overflow: hidden;
+    }
+    
+    .inner img {
+        transition: all 1.5s ease;
+    }
+    
+    .inner:hover img {
+        transform: scale(1.04);
     }
     
     .navbar {
         color: white!important;
         backdrop-filter: blur(4px);
-        background-color: rgba(240, 238, 242, 0.2);
+        background-color: rgba(30, 29, 31, 0.3);
     }
     
     .nav-link {
@@ -27,6 +40,12 @@
         font-size: 25px;
         text-shadow: 0 1rem 1rem rgba(0, 0, 0, .15);
         margin-left: 30px;
+        border: white solid 5px;
+        border-radius: 25px;
+    }
+    
+    .nav-link:hover {
+        color: red!important;
     }
     
     .onas {
@@ -36,7 +55,7 @@
     
     .footer {
         color: white!important;
-        background-image: url(img/bieznik.jpg);
+        background-image: url(img/oponystopka.jpg);
     }
     
     .footer1 {
@@ -45,20 +64,18 @@
     
     .oferta {
         color: white!important;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        text-align: justify;
-        display: flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
         text-decoration: none;
+        display: flex;
+        text-align: justify;
     }
     
     .oferta3 {
         color: white!important;
-        margin-top: 30px;
-        margin-bottom: 30px;
         text-align: start;
-        display: flex;
         text-decoration: none;
+        text-indent: -1em;
     }
     
     .oferta2 {
@@ -66,8 +83,29 @@
         margin-top: 30px;
         margin-bottom: 30px;
         text-decoration: none;
-      backdrop-filter: blur(4px);
-        background-color: rgba(240, 238, 242, 0.2);
+        background-image: url(img/yellow.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: inherit;
+        box-shadow: 0 1rem 1rem rgba(0, 0, 0, .15);
+    }
+    
+    .dzwon {
+        background: rgba(53, 52, 52, 0.25);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+        backdrop-filter: blur( 4px);
+        -webkit-backdrop-filter: blur( 4px);
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18);
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color: white!important;
+    }
+    
+    .dzwon a {
+        color: white;
+        text-decoration: none;
     }
     
     .oferta h5 {
@@ -84,6 +122,7 @@
         color: white;
         text-align: center;
         font-weight: 900;
+        background: transparent;
     }
     
     .tg {
@@ -116,7 +155,7 @@
     }
     
     .tg .tg-ja0e {
-        background-color: #fe0000;
+        background-color: rgba(194, 43, 43, 0.808);
         border-color: maroon;
         color: #ffffff;
         font-size: 18px;
@@ -125,7 +164,7 @@
     }
     
     .tg .tg-uw8j {
-        background-color: #fe0000;
+        background-color: rgba(194, 43, 43, 0.808);
         color: #ffffff;
         font-size: 18px;
         text-align: center;
@@ -152,7 +191,7 @@
     }
     
     .tg .tg-q6pw {
-        background-color: #fe0000;
+        background-color: rgba(194, 43, 43, 0.808);
         border-color: maroon;
         color: #ffffff;
         font-size: 18px;
@@ -161,7 +200,7 @@
     }
     
     .tg .tg-vcl2 {
-        background-color: #fe0000;
+        background-color: rgba(194, 43, 43, 0.808);
         border-color: maroon;
         color: #ffffff;
         font-size: 18px;
@@ -180,7 +219,7 @@
     }
     
     .tg .tg-1bje {
-        background-color: #fe0000;
+        background-color: rgba(194, 43, 43, 0.808);
         border-color: maroon;
         color: #ffffff;
         font-size: 18px;
@@ -197,11 +236,46 @@
         text-align: center;
         vertical-align: top
     }
-    
-    .galeria img {
+    /*.galeria img {
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-        padding: 15px;
         width: 100%;
         position: relative;
-        margin: 3px;
+    }
+    */
+    
+    .galeria1 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .carousel-inner img {
+        width: 80%;
+        height: 100%
+    }
+    
+    #custCarousel .carousel-indicators {
+        position: relative;
+        margin-top: 20px;
+        margin-left: 20px!important;
+        margin-right: 20px!important;
+    }
+    
+    #custCarousel .carousel-indicators>li {
+        width: 300px;
+    }
+    
+    #custCarousel .carousel-indicators li img {
+        opacity: 0.6
+    }
+    
+    #custCarousel .carousel-indicators li.active img {
+        opacity: 1
+    }
+    
+    #custCarousel .carousel-indicators li:hover img {
+        opacity: 1
+    }
+    
+    .list-inline-item {
+        background-color: transparent!important;
     }
