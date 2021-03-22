@@ -76,7 +76,7 @@
         color: white!important;
         text-align: start;
         text-decoration: none;
-        text-indent: -1em;
+        list-style-image: url(img/opona1.png);
     }
     
     .oferta2 {
