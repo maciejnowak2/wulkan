@@ -126,119 +126,40 @@
         font-weight: 900;
         background: transparent;
     }
+
+    .tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-f73y{background-color:#fd923f;border-color:#efefef;color:#000000;font-family:Arial, Helvetica, sans-serif !important;;
+  font-size:18px;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-lks5{background-color:#fd3434;border-color:#efefef;color:#efefef;font-family:"Arial Black", Gadget, sans-serif !important;;
+  font-size:18px;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-diqq{background-color:#fd923f;border-color:#efefef;color:#000000;font-family:Arial, Helvetica, sans-serif !important;;
+  font-size:18px;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-qsas{background-color:#fd3434;border-color:#efefef;color:#efefef;font-family:"Arial Black", Gadget, sans-serif !important;;
+  font-size:18px;text-align:center;vertical-align:middle}
+.tg .tg-iton{background-color:#9a0000;border-color:#efefef;color:#ffffff;font-family:"Arial Black", Gadget, sans-serif !important;;
+  font-size:20px;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-0z4a{background-color:#ffcb2f;border-color:#efefef;color:#000000;font-family:Arial, Helvetica, sans-serif !important;;
+  font-size:18px;text-align:center;vertical-align:top}
+.tg .tg-f1ll{background-color:#ffcb2f;border-color:#efefef;color:#000000;font-family:Arial, Helvetica, sans-serif !important;;
+  font-size:18px;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-rcl7{background-color:#cb0000;border-color:#efefef;color:#efefef;font-family:"Arial Black", Gadget, sans-serif !important;;
+  font-size:18px;text-align:center;vertical-align:middle}
+.tg .tg-g0ru{background-color:#9a0000;border-color:#efefef;color:#ffffff;font-family:"Arial Black", Gadget, sans-serif !important;;
+  font-size:20px;text-align:center;vertical-align:middle}
+.tg .tg-wk3u{background-color:#cb0000;border-color:#efefef;color:#efefef;font-family:"Arial Black", Gadget, sans-serif !important;;
+  font-size:18px;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-wwxi{background-color:#9a0000;border-color:#efefef;color:#ffffff;font-family:"Arial Black", Gadget, sans-serif !important;;
+  font-size:20px;text-align:center;vertical-align:top}
+.tg .tg-t5nr{background-color:#ffcb2f;border-color:#efefef;color:#000000;font-family:Arial, Helvetica, sans-serif !important;;
+  font-size:18px;font-weight:bold;text-align:center;vertical-align:middle}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}
     
-    .tg {
-        border-collapse: collapse;
-        border-spacing: 0;
-        justify-content: center;
-    }
-    
-    .tg td {
-        border-style: solid;
-        border-color: darkred;
-        border-width: 2px;
-        font-family: Arial, sans-serif;
-        font-size: 14px;
-        overflow: hidden;
-        padding: 5px 6px;
-        word-break: normal;
-    }
-    
-    .tg th {
-        border-style: solid;
-        border-width: 2px;
-        border-color: maroon;
-        font-family: Arial, sans-serif;
-        font-size: 14px;
-        font-weight: normal;
-        overflow: hidden;
-        padding: 5px 6px;
-        word-break: normal;
-    }
-    
-    .tg .tg-ja0e {
-        background-color: rgba(194, 43, 43, 0.7);
-        border-color: maroon;
-        color: #ffffff;
-        font-size: 18px;
-        text-align: center;
-        vertical-align: top
-    }
-    
-    .tg .tg-uw8j {
-        background-color: rgba(194, 43, 43, 0.7);
-        color: #ffffff;
-        font-size: 18px;
-        text-align: center;
-        vertical-align: top
-    }
-    
-    .tg .tg-t2xe {
-        background-color: #9a0000;
-        color: #ffffff;
-        font-size: 20px;
-        font-weight: bold;
-        text-align: center;
-        vertical-align: top
-    }
-    
-    .tg .tg-nogn {
-        background-color: #9a0000;
-        border-color: maroon;
-        color: #ffffff;
-        font-size: 20px;
-        font-weight: bold;
-        text-align: center;
-        vertical-align: middle
-    }
-    
-    .tg .tg-q6pw {
-        background-color: rgba(194, 43, 43, 0.7);
-        border-color: maroon;
-        color: #ffffff;
-        font-size: 18px;
-        text-align: left;
-        vertical-align: middle
-    }
-    
-    .tg .tg-vcl2 {
-        background-color: rgba(194, 43, 43, 0.7);
-        border-color: maroon;
-        color: #ffffff;
-        font-size: 18px;
-        text-align: center;
-        vertical-align: middle
-    }
-    
-    .tg .tg-ap0p {
-        background-color: #9a0000;
-        border-color: maroon;
-        color: #ffffff;
-        font-size: 20px;
-        font-weight: bold;
-        text-align: center;
-        vertical-align: top
-    }
-    
-    .tg .tg-1bje {
-        background-color: rgba(194, 43, 43, 0.7);
-        border-color: maroon;
-        color: #ffffff;
-        font-size: 18px;
-        text-align: center;
-        vertical-align: top
-    }
-    
-    .tg .tg-q3gx {
-        background-color: #9a0000;
-        border-color: maroon;
-        color: #ffffff;
-        font-size: 20px;
-        font-weight: bold;
-        text-align: center;
-        vertical-align: top
-    }
-    /*.galeria img {
+
+/*.galeria img {
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
         width: 100%;
         position: relative;
